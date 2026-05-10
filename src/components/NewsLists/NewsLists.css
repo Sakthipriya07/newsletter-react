@@ -1,0 +1,155 @@
+.news-container{
+  width:100%;
+  padding:40px 80px;
+}
+
+.news-header h1{
+  font-size:28px;
+  font-weight:600;
+  margin-bottom:20px;
+}
+
+.news-header span{
+  color:red;
+}
+
+.news-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap:25px;
+}
+
+.news-card{
+  width:100%;
+  background:#f8f8f8;
+  padding:15px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  border-radius:8px;
+}
+
+.news-image{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  cursor:pointer;
+  transition:0.3s;
+  border-radius:6px;
+}
+
+.news-image:hover{
+  transform:scale(1.05);
+}
+
+.news-date{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  color:gray;
+  margin-top:10px;
+  font-size:14px;
+}
+
+.news-title{
+  color:#e60023;
+  font-size:18px;
+  margin:10px 0;
+}
+
+.news-description{
+  font-size:14px;
+  color:#666;
+}
+
+.news-author{
+  font-size:13px;
+  font-weight:600;
+  margin-top:8px;
+}
+
+.news-author span{
+  font-style:italic;
+  color:#777;
+  margin-left:5px;
+}
+
+.read-more{
+  margin-top:12px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  gap:6px;
+  background:red;
+  color:white;
+  padding:6px 10px;
+  width:120px;
+  cursor:pointer;
+  border-radius:4px;
+}
+
+.read-more a{
+  text-decoration:none;
+  color:white;
+  font-size:13px;
+  font-weight:600;
+}
+
+.read-more:hover{
+  background:darkred;
+}
+
+.loader-box{
+  height:70vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.view-more-box{
+  display:flex;
+  justify-content:center;
+  margin-top:40px;
+}
+
+.view-more-btn{
+  background:red;
+  color:white;
+  border:none;
+  padding:8px 15px;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  gap:5px;
+  border-radius:4px;
+}
+
+.view-more-btn:hover{
+  background:darkred;
+}
+
+@media (max-width: 992px){
+  .news-container{
+    padding:30px 40px;
+  }
+
+  .news-grid{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 600px){
+  .news-container{
+    padding:20px;
+  }
+
+  .news-header h1{
+    font-size:22px;
+  }
+
+  .news-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .news-image{
+    height:180px;
+  }
+}
