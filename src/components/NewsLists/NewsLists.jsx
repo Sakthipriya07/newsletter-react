@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { FaAngleDown } from "react-icons/fa";
-import cover_img from "../../assets/coverImg.png";
+import cover_img from "../../assets/coverimg.png";
 import "./NewsLists.css";
 import Navbar from "../Navbar/Navbar";
 import Loader from "../Loader/Loader";
