@@ -68,9 +68,9 @@
 }
 
 .active-topic{
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
-  margin: 10px;
+  margin: 5px;
   background:red;
 }
 
