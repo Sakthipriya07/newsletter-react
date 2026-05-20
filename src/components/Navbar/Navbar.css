@@ -115,3 +115,26 @@
   gap:15px;
 }
 }
+
+@media(max-width:458px){
+  .logo{
+    width: 90px;
+  }
+  .search-box{
+    width: 110ox;
+    font-size: 11px;
+    padding: 6px;
+  }
+  .search-btn{
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+  .topic-item{
+  padding: 6px 6px;
+  font-size: 10px;
+  font-weight: 400;
+}
+  .topic-list{
+    gap: 5px;
+  }
+}
