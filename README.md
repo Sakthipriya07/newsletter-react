@@ -1,3 +1,31 @@
+## Important Note
+
+This project works correctly on `http://localhost:5173` when run locally using Vite. The deployed version cannot fetch news because the free NewsAPI plan only supports requests from `localhost`.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+     https://github.com/Sakthipriya07/newsletter-react.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd newsletter
+
+3. Install the dependencies:
+   ```bash
+   npm install
+  or
+ ```bash
+     yarn start
+   ```
 # Newsletter – React News Web Application
 
 Developed a responsive news web application using ReactJS,  CSS, Axios, and NewsAPI to deliver real-time news updates. Implemented category-based filtering and search functionality for personalized content browsing. Designed a mobile-friendly user interface with reusable React components and efficient state management for a smooth user experience.
